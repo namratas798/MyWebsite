@@ -10,12 +10,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <title>Form Page</title>
 </head>
 <script>
-window.datalayer = window.datalayer||[];
-window.datalayer.push({
-'event' : 'login',
-'loginMethod' : 'email'
- }); 
-</script>  
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'event': 'login',
+  'loginMethod' : 'email' // this should be
+replaced with an actual login method
+});
+</script> 
 <body>
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGQZCNL"
